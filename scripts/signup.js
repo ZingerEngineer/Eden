@@ -187,7 +187,7 @@ let signUp = () => {
         user.lastName = lastName.value;
         user.email = email.value;
         user.password = password.value;
-        console.log(user);
+
     }
 }
 

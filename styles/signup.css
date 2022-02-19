@@ -35,7 +35,6 @@ body {
   display: flex;
   margin: auto;
   flex-direction: column;
-  align-items: center;
 }
 .right-content {
   width: 70%;
@@ -100,6 +99,15 @@ body {
 }
 .wrapper {
   align-items: center;
+}
+.have-account {
+  margin-top: 45px;
+  font-size: 13px;
+  color: #3a3f49;
+  text-decoration: none;
+}
+.have-account:visited {
+  color: #3a3f49;
 }
 .input-confirm {
   width: 100%;
@@ -215,6 +223,8 @@ body {
   cursor: pointer;
   padding: 0px;
   margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .sign-up-button:disabled {
   background-color: #998cd8;
@@ -320,6 +330,7 @@ body {
   .free-trial {
     margin: auto;
   }
+  .have-account{margin-top: 10px;}
 }
 
 h1 {
